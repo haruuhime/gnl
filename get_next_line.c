@@ -86,7 +86,6 @@ char *get_next_line(int fd)
         return (NULL);
     save = splitline(line);
     return (line); 
-
 }
 
 #include <stdio.h>
